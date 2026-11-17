@@ -1,0 +1,43 @@
+# Python & Virtual Environments
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Django local artifacts
+db.sqlite3
+db.sqlite3-journal
+/backend/media/
+/backend/staticfiles/
+local_settings.py
+
+# Node & Frontend Build Artifacts
+node_modules/
+dist/
+build/
+.npm
+*.tsbuildinfo
+
+# Environment & Secret files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Docker volume mounts (if created locally)
+mysql_data/
